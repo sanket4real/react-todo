@@ -38,7 +38,8 @@ function App() {
 
 	//add new task
 	const addTask = (task) => {
-		console.log(task);
+		const id = Math.floor(Math.random() * 20) + 1;
+		console.log(id);
 	};
 
 	//delete task
